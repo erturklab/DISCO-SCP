@@ -50,6 +50,7 @@ Published tables used for comparison (download from the publishers; not redistri
 | `Johnson2026_SI_Tables.xlsx` | Johnson, C. C. et al. Aspiration Patch Proteomics Enables CE–ESI–MS Proteotyping of Identified Single Neurons in Intact Brain Tissue. *Anal. Chem.* **98**, 28088–28096 (2026). Table S3. https://doi.org/10.1021/acs.analchem.6c03049 |
 | `Lloyd2024_SuppTable_mmc2.xlsx` | Lloyd, A. F. et al. Deep proteomic analysis of microglia reveals fundamental biological differences between model systems. *Cell Rep.* **43**, 114908 (2024). Table S2 (sheet "Mouse"). https://doi.org/10.1016/j.celrep.2024.114908 |
 | `1-s2.0-S0896627326003855-mmc4.xlsx` | Zhang, H. et al. Single-cell proteome atlas of aging mouse microglia reveals subpopulation-specific phagoproteome. *Neuron* https://doi.org/10.1016/j.neuron.2026.05.014 (2026). Table S3. |
+
 Further inputs expected in `Data/`: for step 00 the DIA-NN protein matrix (`report_CombinedBrainEmpLib_05Jun2026_360_MBR.pg_matrix.tsv`) and the plate design table (`Plate_Design_Master_Table.xlsx`); for the figure scripts the HeLa test-injection statistics (`*200fL_200pL_QCs_combiLib_17Jun2026*stats*.tsv`), the DIA-NN report (`report_CombinedBrainEmpLib_05Jun2026_360_MBR.parquet`) and precursor matrix (`..._pr_matrix.tsv`). File names are set in `Scripts/shared/setup.R` and at the top of each script.
 
 ## How to run
