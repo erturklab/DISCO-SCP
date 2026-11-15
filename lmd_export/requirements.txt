@@ -1,0 +1,8 @@
+py-lmd
+geopandas
+shapely
+numpy
+pandas
+loguru
+matplotlib
+jupyter
